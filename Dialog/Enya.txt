@@ -20,7 +20,7 @@
 
 # Language (id,label)
 	LANGUAGE=enyaignis,Enya_Ignis
-	ICON=Icons/Enya_climbs_a_mountain.png
+	ICON=Icons/Enya.png
 	ORDER=0
 
 # Font (Face, Base Size)
