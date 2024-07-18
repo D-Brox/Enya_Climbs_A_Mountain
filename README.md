@@ -2,8 +2,12 @@
 
 A skin and dialog mod for Enya Ignis [WIP]
 
-Requires the [Everest mod loader](https://everestapi.github.io/) and [Skin Mod Helper Plus mod](https://gamebanana.com/mods/473796) to function.
- 
+Requires the [Everest mod loader](https://everestapi.github.io/) to function.
+
+Install from the one-click installer found in:
+
+<a href="https://gamebanana.com/mods/528758"><img src="https://gamebanana.com/mods/embeddables/528758?type=large"/></a>
+
 ## Current Progress
 
 ### Missing sprites
