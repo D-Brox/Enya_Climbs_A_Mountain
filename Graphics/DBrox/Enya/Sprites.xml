@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Sprites>
 
-  <badeline path="characters/DBrox/Lopi/">
+<badeline path="characters/DBrox/Lopi/">
     <Justify x=".5" y="1" />
     
     <Loop id="idle" path="idle" delay="0.1" />
@@ -47,56 +47,30 @@
     <Loop id="spin" path="spin" delay="0.1" />
     <Loop id="hug" path="hug" delay="0.08"/>
     
-	  <Metadata>
-		  <Frames path="idle" hair="0,-2|0,-2|0,-2|0,-2|0,-1|0,-1|0,-1|0,-1|0,-1"/>
-		  <Frames path="lookUp" hair="0,-2|0,-2|0,-2|0,-2|-1,-1:1|-1,-2:1|-1,-2:1|-1,-2:1|-1,-3:1"/>
-		  <Frames path="edge" hair="-1,-2|-1,-2|-1,-2|-1,-1|-1,-1|-1,-1|-1,-2|0,-2|1,-2|0,-2|0,-1|-1,-1|-1,-1|-1,-2"/>
-		  <Frames path="walk" hair="0,-2|0,-1|0,-1|0,-1|0,-3|0,-2|0,-1|0,-1|0,-1|0,-1|0,-3|0,-2"/>
-		  <Frames path="push" hair="1,-2|1,-1|1,-1|1,-1|1,-3|1,-3|1,-3|1,-2|1,-1|1,-1|1,-1|1,-1|1,-3|1,-2|1,-2|1,-2"/>
-		  <Frames path="runSlow" hair="1,-2|1,-1|1,-1|1,-1|1,-3|1,-2|1,-1|1,-1|1,-1|1,-1|1,-3|1,-2"/>
-		  <Frames path="runFast" hair="1,-2|1,-1|1,-1|1,-1|1,-3|1,-2|1,-1|1,-1|1,-1|1,-1|1,-3|1,-2"/>
-		  <Frames path="runStumble" hair="1, 1|1,2|1,2|1,0|1,-2|1,-2|1,-1|1,-1|1,-1|1,-1|1,-3|1,-2"/>
-		  <Frames path="dash" hair="2,0|2,0|2,0|2,1"/>
-		  <Frames path="dreamDash" hair="2,0|1,0|0,0|0,0|1,1|2,1|2,1|2,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|0,0|1,0|1,0|2,1"/>
-		  <Frames path="slide" hair="0,3|0,3|0,3"/>
-		  <Frames path="jumpSlow" hair="1,-3|1,-3|1,-2|0,-2"/>
-		  <Frames path="jumpFast" hair="1,-3|1,-3|1,-2|0,-2"/>
-		  <Frames path="tired" hair="0,1|0,2|0,1|0,0"/>
-		  <Frames path="climb" hair="0,-2|0,-2|0,-2|0,-2|-1,-2|-1,-2|0,-1|1,-2:1|2,-2:2"/>
-		  <Frames path="duck" hair="0,3"/>
-		  <Frames path="sleep" hair=""/>
-		  <Frames path="flip" hair="-1,-1:2|-1,-1:1|0,-1:1|1,-1:0|1,-1:0|1,0:0|2,0:0|2,0:0|2,0:0"/>
-		  <Frames path="dangling" hair="0,-2|0,-2|0,-2|0,-2|-1,-2|-1,-2|-1,-2|-1,-2|-1,-2|-1,-2"/>
-		  <Frames path="faint" hair="0,1|0,1|0,1|0,1|1,1|2,1|2,2|5,5|6,8|6,7"/>
-		  <Frames path="fainted" hair="6,7"/>
-		  <Frames path="angry" hair="-1,-3|-1,-3|-1,-3|-1,-2|-1,-2|-1,-2"/>
-		  <Frames path="hug" hair="0,2"/>
-		</Metadata>
+      <Metadata>
+          <Frames path="idle" hair="0,-2|0,-2|0,-2|0,-2|0,-1|0,-1|0,-1|0,-1|0,-1"/>
+          <Frames path="lookUp" hair="0,-2|0,-2|0,-2|0,-2|-1,-1:1|-1,-2:1|-1,-2:1|-1,-2:1|-1,-3:1"/>
+          <Frames path="edge" hair="-1,-2|-1,-2|-1,-2|-1,-1|-1,-1|-1,-1|-1,-2|0,-2|1,-2|0,-2|0,-1|-1,-1|-1,-1|-1,-2"/>
+          <Frames path="walk" hair="0,-2|0,-1|0,-1|0,-1|0,-3|0,-2|0,-1|0,-1|0,-1|0,-1|0,-3|0,-2"/>
+          <Frames path="push" hair="1,-2|1,-1|1,-1|1,-1|1,-3|1,-3|1,-3|1,-2|1,-1|1,-1|1,-1|1,-1|1,-3|1,-2|1,-2|1,-2"/>
+          <Frames path="runSlow" hair="1,-2|1,-1|1,-1|1,-1|1,-3|1,-2|1,-1|1,-1|1,-1|1,-1|1,-3|1,-2"/>
+          <Frames path="runFast" hair="1,-2|1,-1|1,-1|1,-1|1,-3|1,-2|1,-1|1,-1|1,-1|1,-1|1,-3|1,-2"/>
+          <Frames path="runStumble" hair="1, 1|1,2|1,2|1,0|1,-2|1,-2|1,-1|1,-1|1,-1|1,-1|1,-3|1,-2"/>
+          <Frames path="dash" hair="2,0|2,0|2,0|2,1"/>
+          <Frames path="dreamDash" hair="2,0|1,0|0,0|0,0|1,1|2,1|2,1|2,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|0,0|1,0|1,0|2,1"/>
+          <Frames path="slide" hair="0,3|0,3|0,3"/>
+          <Frames path="jumpSlow" hair="1,-3|1,-3|1,-2|0,-2"/>
+          <Frames path="jumpFast" hair="1,-3|1,-3|1,-2|0,-2"/>
+          <Frames path="tired" hair="0,1|0,2|0,1|0,0"/>
+          <Frames path="climb" hair="0,-2|0,-2|0,-2|0,-2|-1,-2|-1,-2|0,-1|1,-2:1|2,-2:2"/>
+          <Frames path="duck" hair="0,3"/>
+          <Frames path="sleep" hair=""/>
+          <Frames path="flip" hair="-1,-1:2|-1,-1:1|0,-1:1|1,-1:0|1,-1:0|1,0:0|2,0:0|2,0:0|2,0:0"/>
+          <Frames path="dangling" hair="0,-2|0,-2|0,-2|0,-2|-1,-2|-1,-2|-1,-2|-1,-2|-1,-2|-1,-2"/>
+          <Frames path="faint" hair="0,1|0,1|0,1|0,1|1,1|2,1|2,2|5,5|6,8|6,7"/>
+          <Frames path="fainted" hair="6,7"/>
+          <Frames path="angry" hair="-1,-3|-1,-3|-1,-3|-1,-2|-1,-2|-1,-2"/>
+          <Frames path="hug" hair="0,2"/>
+        </Metadata>
   </badeline>
-  
-  <strawberry path="collectables/strawberry/" start="idle">
-    <Center />
-    
-    <Loop id="idle" path="normal" delay=".1" frames="0-6,0-6,0-6,0-6,0-7" />
-    <Loop id="noFlash" path="normal" delay=".1" frames="0-6"/>
-    <Anim id="collect" path="normal" delay=".07" frames="7-11"/>
-    <Loop id="flap" path="wings" delay=".08" frames="0-8,0-8,0-7,9" />
-	  
-    <Anim id="fade0" path="normal" delay=".08" frames="12-14,14*10,15-19"/>
-    <Anim id="fade1" path="normal" delay=".07" frames="20-22,22*10,23-26"/>
-    <Anim id="fade2" path="normal" delay=".07" frames="28-30,30*10,31-34"/>
-    <Anim id="fade3" path="normal" delay=".07" frames="36-38,38*10,39-42"/>
-    <Anim id="fade4" path="normal" delay=".07" frames="44-46,46*10,47-50"/>
-	  <Anim id="fade5" path="normal" delay=".07" frames="52,53,54,53,54,53,54,53,54,53,54,53,54-59"/>
-	  <Anim id="fade_wow" path="wow/normal" delay=".1" frames="52-66"/>
-  </strawberry>
-  
-  <ghostberry path="collectables/ghostberry/" start="idle">
-    <Center />
-
-    <Loop id="idle" path="idle" delay=".08" frames="0-6,0-6,0-6,0-6,0-7" />
-    <Anim id="collect" path="idle" delay=".07" frames="7-11"/>
-    <Loop id="flap" path="wings" delay=".08" frames="0-8,0-8,0-7,9" />
-  </ghostberry>
-  
 </Sprites>

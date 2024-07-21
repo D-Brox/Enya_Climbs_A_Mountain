@@ -346,7 +346,7 @@
 
 # Stats
 	STATS_TITLE=			Global Steam Stats
-	STAT_BERRIES=			Strawberries
+	STAT_BERRIES=			Gaslighters
 	STAT_DEATHS=			Deaths
 	STAT_DASHES=			Dashes
 	STAT_GOLDBERRIES=		Golden Berries
@@ -1191,7 +1191,7 @@
 		
 		[OSHIRO right sideworried]
 		{+thought}{+oshiro} you idiot, the customer is always right!{+endthought}
-		{+thought}Business is finally picking up{n}and you lose your temper!?{+endthought}
+		{+thought}Business is finally picking up{n}and you lose your temper‽{+endthought}
 		
 		[OSHIRO right nervous]
 		Oh... of course {+MS_MADELINE}!
@@ -1217,7 +1217,7 @@
 		{trigger 1 Oshiro paces to the left}
 
 		[OSHIRO left worried flip]
-		When did this happen!?
+		When did this happen‽
 
 		{trigger 2 Oshiro paces back to the right}
 
@@ -1785,7 +1785,7 @@
 		{trigger 3 Badeline disappears, Oshiro gets angry}
 
 		[OSHIRO left lostcontrol]
-		Pathetic!?
+		Pathetic‽‽‽
 		You only came here to humiliate me...
 		I won't grovel at your feet any longer!
 
@@ -2568,7 +2568,7 @@
 
 	CH5_THEO_SAVING_C=
 		[THEO left worried]
-		Another one!? Come on...
+		Another one‽ Come on...
 
 	CH5_THEO_SAVING_SWITCH=
 		[THEO left thinking]
@@ -3387,7 +3387,7 @@
 		{silent_trigger 0 Tentacles Appear moooore}
 		You think you can blame everything on me?
 		{silent_trigger 0 Tentacles Appear EVEN MORE}
-		You think you're {~}above{/~} me!?
+		You think you're {~}above{/~} me‽‽‽
 
 		[BADELINE right freakC pop]
 		{silent_trigger 1 Tentacles grab Madeline}
@@ -3398,7 +3398,7 @@
 
 		{trigger 4 start circling the player}
 		[BADELINE right freakC_cont]
-		{!}{*}Calm down!?{/*}{/!}
+		{!}{*}Calm down‽{/*}{/!}
 
 		[MADELINE left determinedclosed]
 		Breathe, {+MADELINE}.
@@ -3420,7 +3420,7 @@
 
 	CH6_THEO_WATCHOUT=
 		[THEO left worried]
-		{+MADELINE}, what's happening!?
+		{+MADELINE}, what's happening‽
 
 	CH6_REFLECT_AFTER=
 		[MADELINE left sad]
@@ -4855,7 +4855,7 @@
 		Got you! Finally!
 
 		[MADELINE left angry]
-		Now where's {+GRANNY}!?
+		Now where's {+GRANNY}‽
 
 		{trigger 0 bird looks hurt}
 
@@ -5179,7 +5179,7 @@
  		{trigger 0 Shows the photo of Theo's grandpa with Granny at Celeste Mountain.}
  		
  		[MADELINE left surprised]
-		Is that {+GRANNY}?! With your grandpa?
+		Is that {+GRANNY}‽ With your grandpa?
 
 		[MADELINE left normal]
 		{+THEO}, that's amazing!
